@@ -7,7 +7,7 @@ Steps to run the project
 2.restore the database in this zip file
 3.open and run the project
 
-PS. I have uploaded two pictures which show the tables of database and the display page of the java web application. This is for a stituation where my project cannot be opened in other computer.
+PS. I have uploaded two pictures which show the tables of database and the display page of the java web application. This is for a stituation where my project cannot be opened in other computer. Also, the application is not fully completed according to the requirement, but this is what I have done based on my current knowledge. I will definitely get better in this if I have more time to learn about java web programming.
 
 
 
