@@ -1,4 +1,13 @@
 # inventory-taskforwork-
+Author: Stefan Yeung
+
+Steps to run the project
+
+1. Install Netbeans
+2.restore the database in this zip file
+3.open and run the project
+
+
 
 Day 1. First time making an complete java web application from scratch.
 I am not sure if I can finish it in 3 days, but I will give it my best 
@@ -63,3 +72,16 @@ in index.jsp, I am trying to store the value of user input.
             
 
 
+
+        <%
+         String connectionURL = "jdbc:derby://localhost:1527/sun-	appserv-samples";
+        //ConnectionURL, username and password should be specified in 	getConnection()
+        try {
+        Connection conn = DriverManager.getConnection(connectionURL, 	"", "");
+        System.out.println("Connect successfully ! ");
+        conn.close();
+        } catch (SQLException ex) {
+        System.out.println("Connect failed ! ");
+        }
+        
+        %>
